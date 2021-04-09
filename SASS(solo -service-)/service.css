@@ -1,0 +1,74 @@
+body {
+  background-color: pink;
+}
+
+body h1 {
+  font-size: 50px;
+  text-decoration: underline;
+  border: solid red;
+}
+
+body div {
+  font-family: serif;
+  font-size: 20px;
+}
+
+.navegacion {
+  background-color: grey;
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.navegacion__red {
+  background-color: red;
+}
+
+.navegacion__blue {
+  background-color: blue;
+}
+
+.navegacion__green {
+  background-color: green;
+}
+
+.navegacion__grey {
+  background-color: grey;
+}
+
+.boton1, .boton2 {
+  background-color: blueviolet;
+  padding: 30px;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton2 {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  border-bottom: double;
+  cursor: pointer;
+}
+
+.boton2:hover {
+  background-color: red;
+}
+
+.cuadro1 {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  border: solid red;
+  font-size: 25px;
+}
+
+.cuadro2 {
+  background-color: orange;
+  height: 300px;
+  width: 300px;
+  border: double black;
+  font-size: 15px;
+}
+/*# sourceMappingURL=service.css.map */

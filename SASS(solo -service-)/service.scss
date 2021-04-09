@@ -1,0 +1,68 @@
+
+body{
+    background-color: pink;
+    h1{
+        font-size: 50px;
+        text-decoration: underline;
+        border: solid red;
+    }
+    div{
+        font-family: serif;
+        font-size: 20px;
+    }
+}
+.navegacion{
+    background-color:grey;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+$navegacion:(
+   Inicio: red,
+    Nosotros: blue,
+   Contacto: green,
+   Ventas: grey,
+);
+@each $color,$value in $navegacion {
+    .navegacion__#{$color}{
+        background-color: $navegacion;
+    }
+}
+.boton1{
+    background-color: blueviolet;
+    padding: 30px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton2{
+    @extend .boton1;
+    text-decoration: dashed;
+    border-bottom:double;
+    cursor: pointer;
+    &:hover{
+        background-color: red;
+    }
+}
+@mixin cuadro ($fondo,$borde){
+    background-color: $fondo;
+    height: 300px;
+    width: 300px;
+    border: $borde;   
+}
+.cuadro1{
+    @include cuadro(green,solid red);
+    font-size: 15px+10px;
+}
+.cuadro2{
+    @include cuadro(orange,double black);
+    font-size: 10px+5px;
+}
+$boton:("Facebook": blue,"Instagram": orange,"Twitter": purple,"Whatssapp": green,);
+@each $name,$color in $boton {
+    background: $color;
+
+    
+}
+

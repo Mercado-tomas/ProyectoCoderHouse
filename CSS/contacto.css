@@ -1,0 +1,53 @@
+.seccion1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to left,gray,red);
+}
+p{
+    font-size: 100px;
+    background-color:red ;
+}
+.Rotate{
+    border: solid gray;
+    background-color: red;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100px;
+    height: 100px;
+    
+}
+
+h1{
+    animation-duration: 10s;
+    animation-name: aparecer;
+}
+@keyframes aparecer{
+    0%{opacity: 0;}
+    100%{opacity: 2;}
+}
+.skew{
+    width: 100px;
+    height: 100px;
+    border: solid gray;
+    background-image: linear-gradient(to left,gray,red);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.skew:hover{
+    transform: skew(20deg,10deg);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+}
+.cuadrodecomentario{
+    width: 100%;
+    height: 100px;
+    border: solid red;
+}
+.cuadrodecomentario p{
+    font-size: 20px;
+}
