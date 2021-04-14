@@ -1,20 +1,23 @@
 .seccion1{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to left,gray,red);
+    background-image: linear-gradient(to right,gray,white);
+    text-align: center;
 }
-p{
-    font-size: 100px;
-    background-color:red ;
+body{
+    background-color: gray ;
+   background: linear-gradient(to left,white,gray);
 }
-.Rotate{
-    border: solid gray;
-    background-color: red;
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100px;
-    height: 100px;
+
     
+
+}
+footer{
+    width: auto;
+    height: auto;
+    border: solid;
+    background-color: #0d6efd;
+    font-size: 20px;
 }
 
 h1{
@@ -25,29 +28,16 @@ h1{
     0%{opacity: 0;}
     100%{opacity: 2;}
 }
-.skew{
-    width: 100px;
-    height: 100px;
-    border: solid gray;
-    background-image: linear-gradient(to left,gray,red);
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+form{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 300px;
+    padding-top: 20px;
+}
+.boton{
+    background-color: #0d6efd ;
+    border-radius: 80px;
     
-}
-.skew:hover{
-    transform: skew(20deg,10deg);
-}
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 20px;
-}
-.cuadrodecomentario{
-    width: 100%;
-    height: 100px;
-    border: solid red;
-}
-.cuadrodecomentario p{
-    font-size: 20px;
 }
