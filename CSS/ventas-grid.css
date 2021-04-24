@@ -1,25 +1,9 @@
-
+/*fondo de pagina*/
 body{
     background-color: gray ;
    background: linear-gradient(to left,white,gray);
 }
-
-
-
-@media only screen and(min-width:1021px){
-    grid1{
-        background-color: blueviolet;
-    }
-
-}
-@media only screen and(min-width:768px)
-{
-    grid1{
-        background-color: aqua;
-        font-size: medium;
-        font-family: 'Times New Roman', Times, serif;
-    }
-}
+/*footer al pie de pagina*/
 footer{
     width: auto;
     height: auto;

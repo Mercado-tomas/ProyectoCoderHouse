@@ -1,15 +1,17 @@
-
+/*texto en titulo*/
 .seccion1{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: linear-gradient(to right,gray,white);
     text-align: center;
 }
+/*fondo de pagina*/
 body{
     background-color: gray ;
    background: linear-gradient(to left,white,gray);
 
 }
+/*footer al pie de pagina*/
 footer{
     
 
@@ -23,7 +25,7 @@ footer{
     
     
 }
-
+/*titulo con animacion de aparecer*/
 h1{
     animation-duration: 10s;
     animation-name: aparecer;
@@ -32,6 +34,7 @@ h1{
     0%{opacity: 0;}
     100%{opacity: 2;}
 }
+/*formulario de contacto*/
 form{
     display: inline-flex;
     flex-direction: column;
@@ -40,6 +43,7 @@ form{
 
    
 }
+/*clase boton en formulario*/
 .boton{
     background-color: #0d6efd ;
     border-radius: 80px;

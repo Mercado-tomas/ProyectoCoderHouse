@@ -1,12 +1,15 @@
+/*fonde de pagina*/
 body{
     background-color: gray ;
     background: linear-gradient(to left,white,gray);
      
  }
+ /*carta de google maps*/
 .grid1{
     display: inline-flex;
     flex-direction: column;
 }
+/*footer al pie de pagina*/
 footer{
     width: auto;
     height: auto;

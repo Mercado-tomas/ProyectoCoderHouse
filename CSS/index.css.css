@@ -1,15 +1,17 @@
 
 div{color:black;
 }
-
+/*fondo de pagina*/
 body{
    background-color: gray ;
    background: linear-gradient(to left,white,gray);   
 }
+/*tamaño de imagenes de carrousel de bootstrap*/
 img{
     width: 200px;
     height: 400px;
 }
+/*titulo en carta de bootstrap principal*/
 h3{
     text-transform: uppercase;
     align-self: center;
@@ -19,24 +21,13 @@ h3{
     background-color: #0d6efd;
     border-radius: 100px;
 }
-.Formulario{
-    display: inline-flex;
 
-    flex-direction: column;
-    padding: 50px;
-    align-items: center;
-
-}
-button{
-    border-radius: 150 px;
-    background-color: #0d6efd;
-    border: solid;
-
-}
+/*titulo en carta de bootstrap con fondo azul*/
 h5{
     background-color: #0d6efd;
     border-radius: 100px;
 }
+/*footer al pie de pagina*/
 footer{
     width: auto;
     height: auto;
@@ -45,6 +36,7 @@ footer{
     font-size: 20px;
     text-align: center;
 }
+/*titulo en cartas de bootstrap de testimonios*/
 .h6{
     text-align: center;
     color: black;
