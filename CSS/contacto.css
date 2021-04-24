@@ -1,28 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
 /*texto en titulo*/
 .seccion1{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: linear-gradient(to right,gray,white);
     text-align: center;
+    
 }
 /*fondo de pagina*/
 body{
     background-color: gray ;
    background: linear-gradient(to left,white,gray);
+   display: flex;
+   flex-direction: column;
 
 }
 /*footer al pie de pagina*/
 footer{
-    
 
-        width: 100%;
+        width: auto;
         height: auto;
         border: solid;
         background-color: #0d6efd;
         font-size: 20px;
-        bottom: 0;
+        
         text-align: center;
-    
+        
+        
     
 }
 /*titulo con animacion de aparecer*/
@@ -38,10 +45,7 @@ h1{
 form{
     display: inline-flex;
     flex-direction: column;
-    margin-top: 20px;
-    margin-left: 350px;
-
-   
+    padding: 5px;
 }
 /*clase boton en formulario*/
 .boton{
@@ -49,4 +53,10 @@ form{
     border-radius: 80px;
     margin: 20px;
     
+}
+/*modificacion de iconoces de redes sociales*/
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
